@@ -1,6 +1,6 @@
 # APM Host Count Script
 ## About 
-
+![alt text](https://github.com/sinta-p/apm-host-count-on-k8s/blob/main/img/apm-host-count-architecture.png)
 Purpose of the scripts is to calculate the unique number of APM host based off outputs from kubectl commands  
 ## How to use
 
