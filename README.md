@@ -6,7 +6,7 @@ Purpose of the scripts is to calculate the unique number of APM host based off o
 
 1. Make use of `kubectl` commands to get a filtered list of application pods in the cluster 
 2. You might only run it once or multiple time (to get 1 or multiple csv output files)
-3. Run the above scripts in the same directory as the the file(s) to do a unique host count based on all the pods that is APM instrumented
+3. Run the above scripts in the same directory as the the csv file(s) to do a unique host count based on all the pods which are application-based in nature
 	1. Use `simple_count_apm_host.csv` if there is only one file 
 	2. Use `multifile_count_apm_host.csv` is there is more than one file
 ## Kubectl Cheat Sheet for Pod extraction 
